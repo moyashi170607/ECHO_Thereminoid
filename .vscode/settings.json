@@ -1,0 +1,13 @@
+{
+    "rust-analyzer.cargo.target": "riscv32ec-unknown-none-elf.json",
+    "rust-analyzer.cargo.extraArgs": [
+        "-Z", "build-std=core"
+    ],
+    "rust-analyzer.cargo.extraEnv": {
+        "CARGO_UNSTABLE_BUILD_STD": "true"
+    },
+    "rust-analyzer.rustc.source": "discover",
+    "rust-analyzer.check.extraArgs": [
+        "-Z", "build-std=core"
+    ]
+}

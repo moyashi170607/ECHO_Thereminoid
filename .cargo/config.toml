@@ -1,0 +1,14 @@
+[build]
+target = "riscv32ec-unknown-none-elf.json"
+
+[target."riscv32ec-unknown-none-elf"]
+#-------------------------------------------------------
+# Modified by KotukoHumibana
+# Orignal Work by ch32-hal
+
+runner = "./flash/flash.bat"
+#--------------------------------------------------------
+
+[unstable]
+build-std = ["core"]
+json-target-spec = true
