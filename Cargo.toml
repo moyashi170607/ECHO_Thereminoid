@@ -1,12 +1,12 @@
 [package]
-name = "echo_music"
-version = "0.1.0"
+name = "ECHO_Thereminoid"
+version = "1.0.0"
 authors = ["moyashi170607 <96937973+moyashi170607@users.noreply.github.com>"]
 edition = "2024"
 license = "MIT OR Apache-2.0"
 
 [[bin]]
-name = "echo_music"
+name = "ECHO_Thereminoid"
 path = "src/main.rs"
 harness = false # do not use the built in cargo test harness -> resolve rust-analyzer errors
 

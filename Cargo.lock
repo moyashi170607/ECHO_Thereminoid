@@ -3,6 +3,18 @@
 version = 4
 
 [[package]]
+name = "ECHO_Thereminoid"
+version = "1.0.0"
+dependencies = [
+ "ch32-hal",
+ "embassy-time",
+ "embedded-hal 1.0.0",
+ "panic-halt",
+ "qingke",
+ "qingke-rt",
+]
+
+[[package]]
 name = "autocfg"
 version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -85,18 +97,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d4b8a88685455ed29a21542a33abd9cb6510b6b129abadabdcef0f4c55bc8f61"
 dependencies = [
  "litrs",
-]
-
-[[package]]
-name = "echo_music"
-version = "0.1.0"
-dependencies = [
- "ch32-hal",
- "embassy-time",
- "embedded-hal 1.0.0",
- "panic-halt",
- "qingke",
- "qingke-rt",
 ]
 
 [[package]]
