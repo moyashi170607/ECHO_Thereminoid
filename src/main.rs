@@ -10,7 +10,7 @@ use hal::delay::Delay;
 use hal::gpio::{Input, Level, Output, Pull};
 use {ch32_hal as hal, panic_halt as _};
 
-use echo_music::{
+use ECHO_Thereminoid::{
     DISTANCE_CM_MAX, DISTANCE_CM_MIN, TimerUs, distance_to_freq, measure_distance_cm,
 };
 
